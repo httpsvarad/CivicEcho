@@ -7,7 +7,7 @@ import { WordCloud } from './components/WordCloud';
 import { TabNavigation } from './components/TabNavigation';
 import { Comment, SentimentDistribution } from './types';
 import { parseCSV, mockData } from './utils/csvParser';
-import logo from './assets/logo3.png';
+import logo from '../assets/logo3.png';
 import { 
   analyzeSentiment, 
   generateSummary, 
