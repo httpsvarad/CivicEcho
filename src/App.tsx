@@ -7,6 +7,7 @@ import { WordCloud } from './components/WordCloud';
 import { TabNavigation } from './components/TabNavigation';
 import { Comment, SentimentDistribution } from './types';
 import { parseCSV, mockData } from './utils/csvParser';
+import logo from './assets/logo3.png';
 import { 
   analyzeSentiment, 
   generateSummary, 
@@ -92,7 +93,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
-              <img src="./assets/logo3.png" alt="Sonic AI" className="h-8" />
+              <img src={logo} alt="Sonic AI" className="h-8" />
               {/* <h1 className="text-xl font-bold text-gray-900">
                 CivicEcho
               </h1> */}
